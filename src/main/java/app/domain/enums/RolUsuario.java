@@ -5,5 +5,6 @@ public enum RolUsuario {
     CLIENTE,
     EMPLEADO,
     ENCARGADO_CO,
-    CAJERO
+    CAJERO,
+    ADMIN_RESTAURANTE
 }
