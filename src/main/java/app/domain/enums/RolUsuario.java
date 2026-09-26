@@ -1,0 +1,9 @@
+package main.java.app.domain.enums;
+
+public enum RolUsuario {
+    ADMIN,
+    CLIENTE,
+    EMPLEADO,
+    ENCARGADO_CO,
+    CAJERO
+}
