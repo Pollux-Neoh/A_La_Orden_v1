@@ -11,6 +11,7 @@ public class Pedido {
     private List<DetallePedido> detalles;
     private EstadoPedido estado;
     private double total;
+    private String codigoQR;
 
 
     //---------------------------

@@ -17,7 +17,7 @@ public class PedidoRepository {
 
 
     public PedidoRepository() {
-        this.pedidos = pedidos;
+        this.pedidos = new ArrayList<>();
         this.siguienteId = 1;
     }
 
