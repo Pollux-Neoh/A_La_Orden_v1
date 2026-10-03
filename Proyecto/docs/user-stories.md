@@ -12,8 +12,8 @@ Como cliente quiero crear una cuenta de usuario para poder acceder a la platafor
 - El sistema valida el formato del correo y una contraseña segura.
 - Al finalizar, el usuario recibe confirmación de registro exitoso.
 
-**Prioridad:** Alta  
-**Estimación:** 5 puntos
+**Prioridad:** Complejidad Media  
+**Estimación:** 6.5 puntos
 
 ---
 
@@ -29,8 +29,8 @@ Como cliente quiero iniciar sesión con mis credenciales para acceder a mi cuent
 - Al iniciar sesión correctamente, el usuario es redirigido a la pantalla principal.
 - Existe opción de recuperar contraseña.
 
-**Prioridad:** Alta  
-**Estimación:** 3 puntos
+**Prioridad:** Complejo  
+**Estimación:** 10.5 puntos
 
 ---
 
@@ -45,8 +45,8 @@ Como cliente quiero editar los datos de mi perfil para mantener mi información 
 - El sistema valida los campos antes de guardar los cambios.
 - El usuario recibe confirmación de que los cambios se guardaron.
 
-**Prioridad:** Media  
-**Estimación:** 3 puntos
+**Prioridad:** Complejo  
+**Estimación:** 8 puntos
 
 ---
 
@@ -61,8 +61,8 @@ Como cliente quiero ver el listado de restaurantes cercanos para elegir dónde r
 - Cada restaurante muestra nombre, imagen y calificación promedio.
 - El usuario puede filtrar o buscar por nombre o categoría.
 
-**Prioridad:** Alta  
-**Estimación:** 5 puntos
+**Prioridad:** Poco complejo  
+**Estimación:** 4 puntos
 
 ---
 
@@ -77,8 +77,8 @@ Como cliente quiero ver el menú de un restaurante para conocer los productos di
 - Los productos están agrupados por categoría.
 - Se muestra si un producto no está disponible.
 
-**Prioridad:** Alta  
-**Estimación:** 5 puntos
+**Prioridad:** Poco complejo 
+**Estimación:** 4 puntos
 
 ---
 
@@ -93,8 +93,8 @@ Como cliente quiero agregar productos a mi carrito para armar mi pedido antes de
 - El usuario puede modificar la cantidad de cada producto.
 - El carrito muestra el subtotal actualizado en tiempo real.
 
-**Prioridad:** Alta  
-**Estimación:** 5 puntos
+**Prioridad:** Complejo  
+**Estimación:** 10.5 puntos
 
 ---
 
@@ -109,7 +109,7 @@ Como cliente quiero confirmar mi pedido para enviarlo al restaurante.
 - El pedido queda asociado al restaurante y al usuario.
 - El estado del pedido cambia a 'Confirmado' y se notifica al comercio.
 
-**Prioridad:** Alta  
+**Prioridad:** Complidad Media  
 **Estimación:** 5 puntos
 
 ---
@@ -125,7 +125,7 @@ Como cliente quiero recibir una factura de mi pedido para tener un comprobante d
 - La factura queda disponible en el historial de pedidos.
 - La factura se genera automáticamente al confirmar el pago.
 
-**Prioridad:** Media  
+**Prioridad:** Poco complejo  
 **Estimación:** 3 puntos
 
 ---
@@ -141,8 +141,8 @@ Como cliente quiero pagar en efectivo para cancelar mi pedido al momento de reco
 - El pedido queda marcado como 'Pendiente de pago' hasta la recogida.
 - El comercio puede confirmar el pago al momento de la entrega.
 
-**Prioridad:** Alta  
-**Estimación:** 3 puntos
+**Prioridad:** Sencillo  
+**Estimación:** 2 puntos
 
 ---
 
@@ -157,8 +157,8 @@ Como cliente quiero pagar con tarjeta para cancelar mi pedido de forma electrón
 - El sistema valida la transacción antes de confirmar el pedido.
 - El usuario recibe confirmación del pago realizado.
 
-**Prioridad:** Alta  
-**Estimación:** 8 puntos
+**Prioridad:** Muy Complejo 
+**Estimación:** 13 puntos
 
 ---
 
@@ -173,8 +173,8 @@ Como cliente quiero ver el tiempo estimado de recogida para planificar mi llegad
 - El tiempo estimado se actualiza si el comercio lo modifica.
 - El usuario recibe una notificación cuando el pedido está listo.
 
-**Prioridad:** Media  
-**Estimación:** 3 puntos
+**Prioridad:** Sencillo  
+**Estimación:** 2.5 puntos
 
 ---
 
@@ -189,8 +189,8 @@ Como cliente quiero recibir un código QR de mi compra para poder reclamar mi pe
 - El código QR es único por pedido.
 - El usuario puede visualizar el QR desde el detalle del pedido.
 
-**Prioridad:** Media  
-**Estimación:** 3 puntos
+**Prioridad:** Poco complejo  
+**Estimación:** 4 puntos
 
 ---
 
@@ -205,8 +205,8 @@ Como cliente quiero ver mi historial de pedidos para consultar compras anteriore
 - El usuario puede acceder a la factura de cada pedido pasado.
 - El historial se ordena del más reciente al más antiguo.
 
-**Prioridad:** Media  
-**Estimación:** 3 puntos
+**Prioridad:** Poco complejo
+**Estimación:** 4 puntos
 
 ---
 
@@ -221,8 +221,8 @@ Como cliente quiero calificar y comentar mi experiencia con un comercio para com
 - Solo se permite calificar pedidos ya entregados.
 - La calificación se refleja en el promedio del comercio.
 
-**Prioridad:** Baja  
-**Estimación:** 3 puntos
+**Prioridad:** Sencillo  
+**Estimación:** 2.5 puntos
 
 ---
 
@@ -237,8 +237,8 @@ Como comerciante quiero iniciar sesión para acceder a la administración de mi 
 - El acceso está separado del inicio de sesión de clientes.
 - Se muestra un mensaje de error si las credenciales son incorrectas.
 
-**Prioridad:** Alta  
-**Estimación:** 3 puntos
+**Prioridad:** Complejo  
+**Estimación:** 8 puntos
 
 ---
 
@@ -253,7 +253,7 @@ Como comerciante quiero administrar el perfil de mi negocio para mantener actual
 - Los cambios se reflejan inmediatamente en el perfil visible a los clientes.
 - El sistema valida los campos obligatorios antes de guardar.
 
-**Prioridad:** Media  
+**Prioridad:** Complejidad Media  
 **Estimación:** 5 puntos
 
 ---
@@ -269,7 +269,7 @@ Como comerciante quiero editar la información de mis productos para mantener el
 - El sistema valida que el precio sea un valor numérico positivo.
 - Los cambios se reflejan de inmediato en el menú visible al cliente.
 
-**Prioridad:** Alta  
+**Prioridad:** Complejidad Media  
 **Estimación:** 5 puntos
 
 ---
@@ -285,8 +285,8 @@ Como comerciante quiero actualizar la disponibilidad de mis productos para evita
 - Un producto agotado no puede agregarse al carrito por el cliente.
 - El cambio de disponibilidad se refleja en tiempo real.
 
-**Prioridad:** Media  
-**Estimación:** 3 puntos
+**Prioridad:** Poco Complejo  
+**Estimación:** 4 puntos
 
 ---
 
@@ -301,8 +301,8 @@ Como comerciante quiero ver los pedidos entrantes en tiempo real para atenderlos
 - Cada pedido muestra los productos, cantidades y método de pago.
 - El comerciante puede aceptar o rechazar un pedido entrante.
 
-**Prioridad:** Alta  
-**Estimación:** 8 puntos
+**Prioridad:** Muy Complejo  
+**Estimación:** 13 puntos
 
 ---
 
@@ -317,8 +317,8 @@ Como comerciante quiero estimar el tiempo de preparación según la demanda para
 - El comerciante puede ajustar manualmente el tiempo estimado.
 - El tiempo estimado se envía al cliente asociado al pedido.
 
-**Prioridad:** Media  
-**Estimación:** 5 puntos
+**Prioridad:** Complejo 
+**Estimación:** 10.5 puntos
 
 ---
 
@@ -333,8 +333,8 @@ Como comerciante quiero marcar un pedido como listo para notificar al cliente qu
 - El cliente recibe una notificación al cambiar el estado.
 - El estado del pedido queda visible en el historial.
 
-**Prioridad:** Alta  
-**Estimación:** 3 puntos
+**Prioridad:** Poco Complejo  
+**Estimación:** 4 puntos
 
 ---
 
@@ -349,7 +349,7 @@ Como comerciante quiero confirmar el método de pago de un pedido para validar q
 - Para pagos en efectivo, el comerciante puede confirmar el pago recibido.
 - El pedido queda marcado como 'Pagado' tras la confirmación.
 
-**Prioridad:** Media  
+**Prioridad:** Poco complejo 
 **Estimación:** 3 puntos
 
 ---
@@ -365,7 +365,7 @@ Como comerciante quiero escanear el código QR del cliente para validar y entreg
 - Al escanear, el pedido cambia su estado a 'Entregado'.
 - Se muestra un mensaje de error si el código QR no es válido.
 
-**Prioridad:** Media  
+**Prioridad:** Complejidad Media  
 **Estimación:** 5 puntos
 
 ---
@@ -381,7 +381,7 @@ Como comerciante quiero calificar a un cliente según su historial de pago para 
 - La calificación se registra en el historial del cliente.
 - El comerciante puede dejar un comentario opcional.
 
-**Prioridad:** Baja  
+**Prioridad:** Poco complejo  
 **Estimación:** 3 puntos
 
 ---
@@ -397,7 +397,7 @@ Como comerciante quiero generar reportes de mis ventas para conocer el desempeñ
 - El reporte incluye los productos más vendidos.
 - El comerciante puede exportar el reporte.
 
-**Prioridad:** Media  
+**Prioridad:** Complejidad Media  
 **Estimación:** 5 puntos
 
 ---
@@ -413,8 +413,8 @@ Como administrador quiero iniciar sesión para acceder al panel de gestión de l
 - El acceso administrativo está separado del acceso de clientes y comercios.
 - Se muestra un mensaje de error si las credenciales son incorrectas.
 
-**Prioridad:** Alta  
-**Estimación:** 3 puntos
+**Prioridad:** Complejo  
+**Estimación:** 8 puntos
 
 ---
 
@@ -429,8 +429,8 @@ Como administrador quiero revisar los requisitos mínimos de un comercio para ap
 - El administrador puede aprobar o rechazar la solicitud con un comentario.
 - El comercio recibe notificación del resultado de la revisión.
 
-**Prioridad:** Media  
-**Estimación:** 5 puntos
+**Prioridad:** Poco Complejo  
+**Estimación:** 3 puntos
 
 ---
 
@@ -445,8 +445,8 @@ Como administrador quiero crear el perfil de un comercio o usuario para habilita
 - El sistema valida que no exista un perfil duplicado.
 - El nuevo perfil queda disponible en el listado de administración.
 
-**Prioridad:** Media  
-**Estimación:** 5 puntos
+**Prioridad:** Muy complejo 
+**Estimación:** 13 puntos
 
 ---
 
@@ -461,7 +461,7 @@ Como administrador quiero activar perfiles de comercio o usuario para habilitar 
 - El perfil activado puede iniciar sesión con normalidad.
 - Se registra la fecha y el administrador que realizó la activación.
 
-**Prioridad:** Media  
+**Prioridad:** Poco complejo 
 **Estimación:** 3 puntos
 
 ---
@@ -477,7 +477,7 @@ Como administrador quiero desactivar perfiles de comercio o usuario para restrin
 - Un perfil desactivado no puede iniciar sesión.
 - Se registra la fecha y el motivo de la desactivación.
 
-**Prioridad:** Media  
+**Prioridad:** Poco complejo  
 **Estimación:** 3 puntos
 
 ---
@@ -493,7 +493,7 @@ Como administrador quiero ver reportes de actividad de la plataforma para superv
 - El administrador puede filtrar el reporte por fecha.
 - El reporte puede exportarse para su análisis.
 
-**Prioridad:** Media  
-**Estimación:** 5 puntos
+**Prioridad:** Poco complejo  
+**Estimación:** 3 puntos
 
 ---
